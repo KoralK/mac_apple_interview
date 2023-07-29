@@ -1,0 +1,12 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Madrid"],
+        "answers": [0]
+    },
+    {
+        "question": "Which are even numbers?",
+        "options": ["1", "2", "4", "7"],
+        "answers": [1,2]
+    }
+]
