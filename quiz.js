@@ -58,6 +58,7 @@ document.getElementById('check-answer').addEventListener('click', function() {
         score++;
     } else {
         score = Math.max(score - 1/3, 0);
+        alert('Incorrect. The correct answer is: ' + questionData.answers.map(answerIndex => questionData.options[answerIndex]).join(', '));
     }
 
     document.getElementById('score').textContent = 'Score: ' + score;
