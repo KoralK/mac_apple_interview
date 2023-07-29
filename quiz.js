@@ -8,6 +8,9 @@ function loadQuizData() {
         .then(data => {
             quizData = data;
             displayQuizQuestion();
+        })
+        .catch(error => {
+            console.error('Error:', error);
         });
 }
 
