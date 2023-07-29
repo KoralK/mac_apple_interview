@@ -1,8 +1,6 @@
 let score = 0;
 let currentQuestionIndex = 0;
-let currentSingleQuestionIndex = 0;
 let quizData = [];
-let singleQuestionData = [];
 
 function loadQuizData() {
     fetch('quiz_questions.json')
@@ -10,13 +8,6 @@ function loadQuizData() {
         .then(data => {
             quizData = data;
             displayQuizQuestion();
-        });
-
-    fetch('single_questions.json')
-        .then(response => response.json())
-        .then(data => {
-            singleQuestionData = data;
-            displaySingleQuestion();
         });
 }
 
@@ -49,17 +40,6 @@ function displayQuizQuestion() {
     });
 }
 
-function displaySingleQuestion() {
-    if (currentSingleQuestionIndex >= singleQuestionData.length) {
-        alert('All questions answered!');
-        return;
-    }
-
-    let questionData = singleQuestionData[currentSingleQuestionIndex];
-    let questionText = document.getElementById('single-question-text');
-    questionText.textContent = questionData.question;
-}
-
 document.getElementById('check-answer').addEventListener('click', function() {
     let questionData = quizData[currentQuestionIndex];
     let selectedOptions = [];
@@ -81,14 +61,6 @@ document.getElementById('check-answer').addEventListener('click', function() {
 
     currentQuestionIndex++;
     displayQuizQuestion();
-});
-
-document.getElementById('show-answer').addEventListener('click', function() {
-    let questionData = singleQuestionData[currentSingleQuestionIndex];
-    document.getElementById('answer').textContent = 'Answer: ' + questionData.answer;
-
-    currentSingleQuestionIndex++;
-    displaySingleQuestion();
 });
 
 loadQuizData();

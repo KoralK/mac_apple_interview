@@ -1,5 +1,55 @@
 [
     {
+        "question": "What utility can you use on a Mac to gather system information for troubleshooting?",
+        "options": ["System Information", "Activity Monitor", "Console", "Disk Utility"],
+        "answers": [0]
+    },
+    {
+        "question": "Which macOS utility is used for partitioning a disk?",
+        "options": ["Network Utility", "Disk Utility", "Terminal", "Console"],
+        "answers": [1]
+    },
+    {
+        "question": "If an application is unresponsive on a Mac, what utility can be used to force it to quit?",
+        "options": ["Disk Utility", "Activity Monitor", "System Information", "Terminal"],
+        "answers": [1]
+    },
+    {
+        "question": "What does the command 'ping' do on a Mac?",
+        "options": ["It checks the network connectivity to another host on an IP network", "It displays active network connections", "It displays the routing table", "It displays network statistics"],
+        "answers": [0]
+    },
+    {
+        "question": "What key can you hold during startup to select a startup disk before booting?",
+        "options": ["Option", "Control", "Command", "Shift"],
+        "answers": [0]
+    },
+    {
+        "question": "Which version of macOS introduced the Apple File System (APFS)?",
+        "options": ["macOS Sierra", "macOS High Sierra", "macOS Mojave", "macOS Catalina"],
+        "answers": [1]
+    },
+    {
+        "question": "If a user's Mac is running slow, what are some steps they can try to fix it?",
+        "options": ["Check for software updates, close unnecessary apps, check storage space", "Restart the Mac, uninstall all apps, delete all files", "Turn off Wi-Fi, disconnect all peripherals, turn off the Mac for 24 hours", "Open all apps, download new files, check email"],
+        "answers": [0]
+    },
+    {
+        "question": "How can a user backup their Mac?",
+        "options": ["Using Time Machine", "Using Spotlight", "Using Finder", "Using Activity Monitor"],
+        "answers": [0]
+    },
+    {
+        "question": "What does 'Resetting the PRAM' do?",
+        "options": ["Deletes all files on the Mac", "Resets all settings on the Mac", "Resets certain system settings and variables", "Resets the Mac's password"],
+        "answers": [2]
+    },
+    {
+        "question": "What is the default browser on a Mac?",
+        "options": ["Chrome", "Safari", "Firefox", "Internet Explorer"],
+        "answers": [1]
+    },
+    {
         "question": "What is the name of Apple's custom silicon for Macs?",
         "options": ["A12Z Bionic", "Intel i9", "M1", "AMD Ryzen"],
         "answers": [2]
@@ -10,154 +60,53 @@
         "answers": [0, 1]
     },
     {
-        "question": "What does 'macOS' stand for?",
-        "options": ["Macintosh Operating System", "Mobile Access Communication System", "Machine Automated Coding System", "Microsoft Apple Collaboration Software"],
-        "answers": [0]
-    },
-    {
-        "question": "Which of these are Apple devices?",
-        "options": ["iPhone", "iPod", "iPad", "Galaxy Tab"],
-        "answers": [0, 1, 2]
-    },
-    {
-        "question": "What is the name of Apple's voice assistant?",
-        "options": ["Alexa", "Siri", "Google Assistant", "Cortana"],
-        "answers": [1]
-    },
-    {
-        "question": "What is the name of the web browser developed by Apple?",
-        "options": ["Chrome", "Firefox", "Edge", "Safari"],
-        "answers": [3]
-    },
-    {
-        "question": "What year was Apple Inc. founded?",
-        "options": ["1985", "1976", "2000", "1998"],
-        "answers": [1]
-    },
-    {
-        "question": "Which operating system does the MacBook use?",
-        "options": ["Windows", "macOS", "Linux", "Chrome OS"],
-        "answers": [1]
-    },
-    {
-        "question": "Who were the founders of Apple Inc.?",
-        "options": ["Bill Gates and Paul Allen", "Steve Jobs and Bill Gates", "Steve Jobs, Steve Wozniak, and Ronald Wayne", "Larry Page and Sergey Brin"],
-        "answers": [2]
-    },
-    {
-        "question": "What is the name of the online marketplace for digital applications developed by Apple?",
-        "options": ["Google Play Store", "Microsoft Store", "App Store", "Amazon Appstore"],
-        "answers": [2]
-    },
-    
-    {
-        "question": "What is the name of Apple's wireless earbuds?",
-        "options": ["AirPods", "Galaxy Buds", "Echo Buds", "Pixel Buds"],
-        "answers": [0]
-    },
-    {
-        "question": "Which of these services is provided by Apple?",
-        "options": ["Google Drive", "OneDrive", "iCloud", "Dropbox"],
-        "answers": [2]
-    },
-    {
         "question": "How do you reset the System Management Controller (SMC) on a Mac laptop with a non-removable battery?",
-        "options": [
-            "Hold Shift + Control + Option + Power button for 10 seconds",
-            "Press Command + R during startup",
-            "Press Option + Command + P + R for 20 seconds during startup",
-            "Hold down the Power button for 5 seconds during startup"
-        ],
+        "options": ["Hold Shift + Control + Option + Power button for 10 seconds", "Press Command + R during startup", "Press Option + Command + P + R for 20 seconds during startup", "Hold down the Power button for 5 seconds during startup"],
         "answers": [0]
     },
     {
         "question": "What key combination is used to start up your Mac in Safe Mode?",
-        "options": [
-            "Command + R",
-            "Shift",
-            "Command + S",
-            "Option"
-        ],
+        "options": ["Command + R", "Shift", "Command + S", "Option"],
         "answers": [1]
     },
     {
         "question": "What does resetting the PRAM/NVRAM on your Mac do?",
-        "options": [
-            "Resets user preferences",
-            "Resets network settings",
-            "Clears storage space",
-            "Resets certain system settings"
-        ],
+        "options": ["Resets user preferences", "Resets network settings", "Clears storage space", "Resets certain system settings"],
         "answers": [3]
     },
     {
         "question": "What key combination is used to reset the PRAM/NVRAM on a Mac?",
-        "options": [
-            "Option + Command + P + R",
-            "Shift + Control + Option + Power button",
-            "Command + S",
-            "Command + R"
-        ],
+        "options": ["Option + Command + P + R", "Shift + Control + Option + Power button", "Command + S", "Command + R"],
         "answers": [0]
     },
     {
         "question": "What is the name of the built-in recovery system on a Mac?",
-        "options": [
-            "Mac Recovery",
-            "Recovery Mode",
-            "Safe Mode",
-            "System Restore"
-        ],
+        "options": ["Mac Recovery", "Recovery Mode", "Safe Mode", "System Restore"],
         "answers": [1]
     },
     {
         "question": "How do you start up your Mac in Apple Diagnostics or Apple Hardware Test?",
-        "options": [
-            "Press D during startup",
-            "Press Command + R during startup",
-            "Press Shift during startup",
-            "Press Option + Command + P + R during startup"
-        ],
+        "options": ["Press D during startup", "Press Command + R during startup", "Press Shift during startup", "Press Option + Command + P + R during startup"],
         "answers": [0]
     },
     {
         "question": "What utility does Apple provide for troubleshooting your wireless connection?",
-        "options": [
-            "Network Utility",
-            "Wireless Diagnostics",
-            "AirPort Utility",
-            "NetSpot"
-        ],
+        "options": ["Network Utility", "Wireless Diagnostics", "AirPort Utility", "NetSpot"],
         "answers": [1]
     },
     {
         "question": "How do you boot your Mac from a USB drive?",
-        "options": [
-            "Press Option during startup",
-            "Press Command + R during startup",
-            "Press D during startup",
-            "Press Shift during startup"
-        ],
+        "options": ["Press Option during startup", "Press Command + R during startup", "Press D during startup", "Press Shift during startup"],
         "answers": [0]
     },
     {
         "question": "How do you access the Terminal from Recovery Mode on a Mac?",
-        "options": [
-            "Click on Utilities > Terminal",
-            "Press Command + T",
-            "Press Command + Space, then type Terminal",
-            "Right-click on the desktop and select New Terminal"
-        ],
+        "options": ["Click on Utilities > Terminal", "Press Command + T", "Press Command + Space, then type Terminal", "Right-click on the desktop and select New Terminal"],
         "answers": [0]
     },
     {
         "question": "What is the name of the app that helps you find files, apps, and other info on your Mac?",
-        "options": [
-            "Siri",
-            "Spotlight",
-            "Finder",
-            "Searchlight"
-        ],
+        "options": ["Siri", "Spotlight", "Finder", "Searchlight"],
         "answers": [1]
     },
     {
@@ -169,8 +118,21 @@
         "question": "What type of product is Apple's Magic Mouse?",
         "options": ["Keyboard", "Screen", "Mouse", "Headset"],
         "answers": [2]
+    },
+    {
+        "question": "Which of these are potential indications that a Mac may be infected with malware?",
+        "options": ["Increased CPU usage", "Unexpected pop-up ads", "Frequent system crashes", "All of the above"],
+        "answers": [3]
+    },
+    {
+        "question": "Which built-in macOS app allows you to view and control the processes running on your Mac?",
+        "options": ["Console", "Activity Monitor", "System Preferences", "Terminal"],
+        "answers": [1]
+    },
+    {
+        "question": "Which macOS tool would you use to gather information about system activity, including details about CPU usage, memory usage, network activity, and more?",
+        "options": ["Activity Monitor", "Disk Utility", "System Information", "Console"],
+        "answers": [0]
     }
-
-    ]
-    
+]
     
