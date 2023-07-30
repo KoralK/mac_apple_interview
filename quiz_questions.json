@@ -121,8 +121,8 @@
     },
     {
         "question": "Which of these are potential indications that a Mac may be infected with malware?",
-        "options": ["Increased CPU usage", "Unexpected pop-up ads", "Frequent system crashes", "All of the above"],
-        "answers": [3]
+        "options": ["Increased CPU usage", "Unexpected pop-up ads", "Informattions like weather popup", "None of the above"],
+        "answers": [0,1]
     },
     {
         "question": "Which built-in macOS app allows you to view and control the processes running on your Mac?",
