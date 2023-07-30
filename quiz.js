@@ -15,10 +15,15 @@ function loadQuizData() {
 }
 
 function displayQuizQuestion() {
+    console.log("currentQuestionIndex:", currentQuestionIndex); // Add this line
+
     if (currentQuestionIndex >= quizData.length) {
         alert('Quiz finished!');
         return;
     }
+
+    // Rest of the code...
+
 
     let questionData = quizData[currentQuestionIndex];
     let questionText = document.getElementById('question-text');
