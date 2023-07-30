@@ -1,3 +1,6 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+
 let score = 0;
 let currentQuestionIndex = 0;
 let quizData = [];
@@ -91,3 +94,4 @@ document.getElementById('next-question').addEventListener('click', function() {
 });
 
 loadQuizData();
+});
