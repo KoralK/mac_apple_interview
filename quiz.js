@@ -67,4 +67,22 @@ document.getElementById('check-answer').addEventListener('click', function() {
     displayQuizQuestion();
 });
 
+document.getElementById('prev-question').addEventListener('click', function() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        displayQuizQuestion();
+    } else {
+        alert('This is the first question');
+    }
+});
+
+document.getElementById('next-question').addEventListener('click', function() {
+    if (currentQuestionIndex < quizData.length - 1) {
+        currentQuestionIndex++;
+        displayQuizQuestion();
+    } else {
+        alert('This is the last question');
+    }
+});
+
 loadQuizData();
